@@ -15,5 +15,6 @@
 ## Subjects Summary
 
 - Class 01: [Reviewing JavaScript](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class01)
+- Class 02: [Model View Controller: Express modules introduction](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class02)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
