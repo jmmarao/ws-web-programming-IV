@@ -1,5 +1,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/jmmarao/ws-web-programming-IV)
 ![GitHub top language](https://img.shields.io/github/languages/top/jmmarao/ws-web-programming-IV)
+![GitHub](https://img.shields.io/github/license/jmmarao/ws-web-programming-IV)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jmmarao/ws-web-programming-IV)
 
 # :mortar_board: Web Programming IV
