@@ -18,8 +18,8 @@
 - Class 01: [Reviewing JavaScript](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class01)
 - Class 02: [Model View Controller: Express modules introduction](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class02)
 - Class 03: [Express routes](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class03)
-    - Application 1: GET request
-    - Application 2: Multiple requests with next function
-    - Application 3: Requests with file navigation
+    - Application 1: [GET request](https://github.com/jmmarao/ws-web-programming-IV/blob/main/class03/application1.js)
+    - Application 2: [Multiple requests with next function](https://github.com/jmmarao/ws-web-programming-IV/blob/main/class03/application2.js)
+    - Application 3: [Requests with file navigation](https://github.com/jmmarao/ws-web-programming-IV/blob/main/class03/application3.js)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
