@@ -21,5 +21,6 @@
     - Application 1: [GET request](https://github.com/jmmarao/ws-web-programming-IV/blob/main/class03/application1.js)
     - Application 2: [Multiple requests with next function](https://github.com/jmmarao/ws-web-programming-IV/blob/main/class03/application2.js)
     - Application 3: [Requests with file navigation](https://github.com/jmmarao/ws-web-programming-IV/blob/main/class03/application3.js)
+- Class 04: [Locale with i18n](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class04)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
