@@ -24,5 +24,7 @@
 - Class 04: [Locale with i18n](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class04)
 - Class 05: [JSon Web Token - JWT](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class05)
 - Class 06: [Object Relational Mapping](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06)
+    - Example 1: [Database connection](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06/example1)
+    - Example 2: [Sequelize](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06/example2)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
