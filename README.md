@@ -26,5 +26,6 @@
 - Class 06: [Object Relational Mapping](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06)
     - Example 1: [Database connection](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06/example1)
     - Example 2: [Sequelize](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06/example2)
+- Class 07: [ReactJS Introduction](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class07)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
