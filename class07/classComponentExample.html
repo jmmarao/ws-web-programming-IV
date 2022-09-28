@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.19.2/babel.js"></script>
+
+    <title>First example</title>
+</head>
+
+<body>
+    <h1>React Example :)</h1>
+    <div id="position1"></div>
+    <div id="position2"></div>
+
+    <script type="text/babel">
+
+        // Every Component must have render() function
+        // Component create with Class Component
+
+        class Component1 extends React.Component {
+            render() {
+                return <div>
+                    <h3>This is my first component. Made by <b>component class</b>.</h3>
+                    <h4>Second part of msg</h4>
+                </div>
+            }
+        }
+
+        // Component create with Component function
+        function Component2() {
+            return <p>This component was created with <b>component function</b></p>
+        }
+
+        ReactDOM.render(<Component1 />,
+            document.getElementById("position1")
+        )
+
+        ReactDOM.render(<Component2 />,
+            document.getElementById("position2")
+        )
+    </script>
+</body>
+
+</html>
