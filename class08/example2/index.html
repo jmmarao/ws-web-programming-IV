@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.19.2/babel.js"></script>
+    <title>Second class ReactJS</title>
+</head>
+
+<body>
+    <div id="position1"></div>
+    <script type="text/babel">
+        class Main extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    morning: true
+                }
+
+                this.switch = this.switch.bind(this);
+            }
+
+            // This is not html, it's javafx
+            /*             render() {
+                            if (this.state.morning) {
+                                return (<div>
+                                    <h3>Welcome!</h3>
+                                    <h4>Good Morning!</h4>
+                                </div>)
+                            }
+                            return (<div>
+                                <h3>Welcome!</h3>
+                                <h4>Good Evening!</h4>
+                            </div>)
+                        } */
+
+            /*             render() {
+                            if (this.state.morning) {
+                                msg = <h4>Good Morning!</h4>
+                            }
+                            else
+                                msg = <h4>Good Evening!</h4>
+                        } */
+            /*             render() {
+                            return this.state.morning ? <h4>Good Morning!</h4> : <h4>Good Evening!</h4>
+                        } */
+            /* render() {
+                console.log(true && NaN);
+                console.log(true && true);
+                return <div>
+                    {this.state.morning && <h4>Good Morning!</h4>}
+                </div>
+            } */
+
+            switch = () => {
+                console.log("Switching...");
+                const newState = !this.state.morning;
+                this.setState({ morning: newState });
+            }
+
+            render() {
+                // console.log(!this.state.morning && "Good Evening!");
+                return <div>
+                    {this.state.morning && <h4>Good Morning!</h4>}
+                    {!this.state.morning && <h4>Good Evening!</h4>}
+                    <button onClick={this.switch}>Switch Morning or Evening</button>
+                </div>
+            }
+        }
+        ReactDOM.render(<Main />,
+            document.getElementById("position1")
+        )
+    </script>
+</body>
+
+</html>
