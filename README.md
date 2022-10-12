@@ -27,5 +27,9 @@
     - Example 1: [Database connection](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06/example1)
     - Example 2: [Sequelize](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class06/example2)
 - Class 07: [ReactJS Introduction](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class07)
+- Class 08: [ReactJS Component](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08)
+    - Example 1: [Script JS](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/example1)
+    - Example 2: [Bind function](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/example2)
+    - Example 3: [Form component](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/example3)    
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
