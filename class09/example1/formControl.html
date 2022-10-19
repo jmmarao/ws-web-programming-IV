@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Controlled</title>
+</head>
+
+<body>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.19.2/babel.js"></script>
+
+
+    <div id="position1"></div>
+    <script type="text/babel">
+        class FormName extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    valueName: "",
+                    valueYears: ""
+                };
+                this.handleChange = this.handleChange.bind(this);
+                this.handleSubmit = this.handleSubmit.bind(this);
+            }
+
+            handleChange(event) {
+                console.log(event.target.value);
+
+                if (event.target.name == "txtName")
+                    this.setState({ valueName: event.target.value });
+                else
+                    this.setState({ valueYears: event.target.value });
+            }
+
+            handleSubmit(event) {
+                alert(`Name typed: ${this.state.valueName}`);
+                event.preventDefault();
+            }
+
+            render() {
+                return (
+                    <div>
+                        <form onSubmit={this.handleSubmit}>
+                            <label>Name:
+                                <input name="txtName" type="text" onChange={this.handleChange} />
+                            </label>
+                            <label>Idade:
+                                <input name="txtYears" type="text" onChange={this.handleChange} />
+                            </label>
+                            <input type="submit" />
+                        </form>
+                    </div>
+                )
+            }
+        }
+        ReactDOM.render(<FormName />, document.getElementById("position1"))
+    </script>
+</body>
+
+</html>
