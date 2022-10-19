@@ -30,6 +30,9 @@
 - Class 08: [ReactJS Component](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08)
     - Example 1: [Script JS](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/example1)
     - Example 2: [Bind function](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/example2)
-    - Example 3: [Form component](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/example3)    
+    - Example 3: [Form component](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/example3)
+- Class 09: [ReactJS](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class09)
+    - Example 1: [Script JS](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class09/example1)
+    - Example 2: [Task List](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/task-list)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
