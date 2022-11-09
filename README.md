@@ -35,5 +35,6 @@
     - Example 1: [Script JS](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class09/example1)
     - Example 2: [Task List](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class08/task-list)
 - Class 10: [Store](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class10)
+- Class 11: [Backend and frontend integration](https://github.com/jmmarao/ws-web-programming-IV/tree/main/class11)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)
